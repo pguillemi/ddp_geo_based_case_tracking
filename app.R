@@ -9,8 +9,8 @@ library(lubridate)
 library(DT)
 
 
-# Authenticate
-gs4_auth(cache = ".secrets", email = "data.products.pguillemi@gmail.com")
+# Authenticate CACHE AND E-MAIL CHANGED
+gs4_auth(cache = "FANCY", email = "NOTMYEMAIL@gmail.com")
 
 # Define UI for application
 
