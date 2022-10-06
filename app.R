@@ -107,7 +107,15 @@ ui <- fluidPage(
                                         actionButton("new_create", "Create case to follow-up")),
                                  column(4,
                                         textOutput("create_message")))
-                         ))
+                         )),
+                tabPanel("Reference and help",
+                         fluidRow(h4("Help"),
+                         p("For help using this app, please refer to README.md 
+                                    in github repository"),
+                         p(a(href="https://github.com/pguillemi/ddp_geo_based_case_tracking/blob/main/README.md", "README.md")),
+                                  p("App.r code is available at"),
+                                  p(a(href="https://github.com/pguillemi/ddp_geo_based_case_tracking/","Github Repository")),
+                                  p("Questions or comments? email me at pablo.guillemi@gmail.com")))
             )
         )
     )        
