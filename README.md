@@ -53,8 +53,4 @@ Point creatiion is stored in that moment in the associated googlesheets log, and
 
 ### Reference and help
 
-This tabs provides link to this repository, which also contains code
-
-
-
-
+This tabs provides link to this repository, which also contains the code for the app.
